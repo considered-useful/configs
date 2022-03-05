@@ -6,3 +6,13 @@ useful config files
 - adapted for tmux 2.5
 - depends on powerline config
 - yank copy-mode selection to system clipboard with `y`
+
+## ubuntu setup
+
+Save the config in `~/.tmux.conf`
+```
+apt install tmux
+apt install powerline
+apt install fonts-powerline
+```
+If the powerline status bar is a bit garbled after installing the fonts, try restarting the terminal
